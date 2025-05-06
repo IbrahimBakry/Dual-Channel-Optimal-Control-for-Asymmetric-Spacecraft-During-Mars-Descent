@@ -17,10 +17,10 @@
 
 ## **🌟 Key Results & Innovations:**  
 1. **Dual-Channel Control:**  
-   - Simultaneous stabilization of **angular velocity (ω)** and **angle of attack (α)** using **negative feedback control** (Eq. 21, 23).  
+   - Simultaneous stabilization of **angular velocity (ω)** and **angle of attack (α)** using **negative feedback control**.  
    - Achieved asymptotic stability (ω → 0, α → 0) within **3 minutes** for Mars Polar Lander parameters.  
 2. **Numerical Validation:**  
-   - **Euler’s method** and **Z-transform** confirmed control efficacy (Figs. 2–5).  
+   - **Euler’s method** and **Z-transform** confirmed control efficacy.  
    - Variable step-size integration improved accuracy (error < 0.04 rad).  
 3. **Practical Algorithms:**  
    - **5 control algorithms** proposed, including sequential and hybrid strategies for varying attack angles.  
@@ -36,10 +36,10 @@
 
 ## **🔬 Technical Highlights:**  
 - **Constraints:**  
-  - Aerodynamic damping/anti-damping (Eq. 24–29).  
+  - Aerodynamic damping/anti-damping .  
   - Resonance avoidance (ω ≠ ω_resonance).  
-- **Optimization:** Minimized quadratic cost function (Eq. 3) via Bellman’s equation.  
-- **Visualization:** Plotted ω(t), α(t), and control inputs (Figs. 2–4).  
+- **Optimization:** Minimized quadratic cost function via Bellman’s equation.  
+- **Visualization:** Plotted ω(t), α(t), and control inputs.  
 
 ---
 
